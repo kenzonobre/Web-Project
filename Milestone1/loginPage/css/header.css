@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #46D115;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+
+.logo {
+    height: 120%;
+    width: 300px;
+    color: #fff;
+    background-color: #46D115;
+    padding-left: 3vw;
+    border-radius: 0 0 1200px 0px;
+    font-size: xx-large;
+}
+
+.pet{
+    font-size: 2.2em;
+}
+
+.the_shop {
+    font-size: 0.8em;
+}
+
+.navbar {
+    padding-left: 2vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar a:hover{
+    color: #000;
+}

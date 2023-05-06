@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 70vw;
+}
+
+button {
+    text-decoration: none;
+    background-color: #46D115;
+    width: 70%;
+    height: 13vh;
+    border-radius: 20px;
+    color: aliceblue;
+    min-width: 250px;
+    margin: 10px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 18px;
+}

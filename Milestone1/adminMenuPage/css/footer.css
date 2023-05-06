@@ -1,0 +1,35 @@
+.footer{
+    background-color: #26272b;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 10px 20px 10px 50px;
+    color: aliceblue;
+}
+
+.footer h1 {
+    margin: 10px 50px 10px 60px;
+    color: aliceblue;
+}
+
+.footer .icons{
+    color: aliceblue;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .icons .icon{
+    width: 50px;
+    height: 50px;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-radius: 100px;
+    border-style: solid;
+    margin: 10px;
+}
