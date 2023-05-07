@@ -11,14 +11,14 @@ O Purrfect Paradise é uma loja de animais de estimação online que oferece uma
 | Victor Rodrigues da Silva | 12566140      |
 
 ## Índice
-1. [Requisitos](Requisitos)
-2. [Descrição do Projeto](Descrição-do-Projeto)
-3. [Comentários sobre o código](Comentários-sobre-o-código)
-4. [Plano de Testes](Plano-de-Testes)
-5. [Resultados dos Testes](Resultados-dos-Testes)
-6. [Instalação](Instalação)
-7. [Dificuldades](Dificuldades)
-8. [Comentários](Comentários)
+1. [Requisitos](## 1. Requisitos)
+2. [Descrição do Projeto](## 2. Descrição-do-Projeto)
+3. [Comentários sobre o código](## 3. Comentários-sobre-o-código)
+4. [Plano de Testes](## 4. Plano-de-Testes)
+5. [Resultados dos Testes](## 5. Resultados-dos-Testes)
+6. [Instalação](## 6. Instalação)
+7. [Dificuldades](## 7. Dificuldades)
+8. [Comentários](## 8. Comentários)
 
 ## 1. Requisitos
 
