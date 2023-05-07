@@ -11,16 +11,16 @@ O Purrfect Paradise é uma loja de animais de estimação online que oferece uma
 | Victor Rodrigues da Silva | 12566140      |
 
 ## Índice
-1. [Requisitos](## 1. Requisitos)
-2. [Descrição do Projeto](## 2. Descrição-do-Projeto)
-3. [Comentários sobre o código](## 3. Comentários-sobre-o-código)
-4. [Plano de Testes](## 4. Plano-de-Testes)
-5. [Resultados dos Testes](## 5. Resultados-dos-Testes)
-6. [Instalação](## 6. Instalação)
-7. [Dificuldades](## 7. Dificuldades)
-8. [Comentários](## 8. Comentários)
+1. [Requisitos](#requisitos)
+2. [Descrição do Projeto](#descrição-do-projeto)
+3. [Comentários sobre o código](#comentarios-sobre-o-código)
+4. [Plano de Testes](#plano-de-testes)
+5. [Resultados dos Testes](#resultados-dos-testes)
+6. [Instalação](#instalação)
+7. [Dificuldades](#dificuldades)
+8. [Comentários](#comentários)
 
-## 1. Requisitos
+## Requisitos
 
 - O sistema possui 2 tipos de usuários: Clientes e Administradores
     - Os Administradores são responsáveis por registrar/gerenciar administradores, clientes, produtos e posts do blog fornecidos. O aplicativo já vem com uma conta admin com senha admin.
@@ -33,7 +33,7 @@ O Purrfect Paradise é uma loja de animais de estimação online que oferece uma
 - Funcionalidade de posts do blog: A loja de animais de estimação online se destaca pelos eventos relevantes sobre animais de estimação exibidos na seção de blog do site. Os usuários podem ver as últimas notícias, posts informativos e eventos futuros para participar com seus animais.
 - Gerenciamento de posts do blog: Os Administradores podem criar/atualizar/ler/excluir (CRUD) novos posts.
 
-## 2. Descrição do Projeto
+## Descrição do Projeto
 
 ### Funcionalidades
 Para comprar produtos em nossa loja de animais de estimação online, os clientes podem escolher os itens desejados e adicioná-los ao carrinho virtual. A quantidade de cada produto pode ser facilmente selecionada e ajustada conforme necessário. Quando chegar a hora de concluir a compra, os clientes podem usar o sistema de pagamento por código Pix para fazer um pagamento seguro e sem complicações. Uma vez confirmado o pagamento, nosso sistema de gerenciamento de estoque atualiza automaticamente as quantidades disponíveis para refletir os produtos vendidos, garantindo informações precisas sobre a disponibilidade dos produtos para futuros clientes. É importante destacar que os carrinhos são esvaziados somente após o recebimento do pagamento ou se o cliente optar por remover os itens do carrinho.
@@ -47,9 +47,9 @@ Para tornar a loja de animais de estimação online uma aplicação sustentável
 ### Protótipo
 Foi desenvolvido o [Diagrama de Navegação](https://www.figma.com/proto/aoYbKfVo5twtHE4pXq64fw/Untitled?node-id=228-427&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=228%3A427&show-proto-sidebar=1) e o [Mockup](https://www.figma.com/file/aoYbKfVo5twtHE4pXq64fw/Untitled?type=design&node-id=0-1&t=VsHLKqAyVCCDRMHS-0) no figma para planejar o projeto.
 
-## 3. Comentários sobre o código
-## 4. Plano de Testes
-## 5. Resultados dos Testes
-## 6. Instalação
-## 7. Dificuldades
-## 8. Comentários
+## Comentários sobre o código
+## Plano de Testes
+## Resultados dos Testes
+## Instalação
+## Dificuldades
+## Comentários
