@@ -47,6 +47,9 @@ Para tornar a loja de animais de estimação online uma aplicação sustentável
 ### Protótipo
 Foi desenvolvido o [Diagrama de Navegação](https://www.figma.com/proto/aoYbKfVo5twtHE4pXq64fw/Untitled?node-id=228-427&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=228%3A427&show-proto-sidebar=1) e o [Mockup](https://www.figma.com/file/aoYbKfVo5twtHE4pXq64fw/Untitled?type=design&node-id=0-1&t=VsHLKqAyVCCDRMHS-0) no figma para planejar o projeto.
 
+![image](https://user-images.githubusercontent.com/63797831/236707761-8648c0ff-df77-4492-b7c0-0ede91dd6f51.png)
+
+
 ## Comentários sobre o código
 ## Plano de Testes
 ## Resultados dos Testes
