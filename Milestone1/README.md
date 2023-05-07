@@ -10,6 +10,8 @@ O Purrfect Paradise é uma loja de animais de estimação online que oferece uma
 | Otavio Ferracioli Coletti      | 11767796      |
 | Victor Rodrigues da Silva | 12566140      |
 
+![image](https://user-images.githubusercontent.com/85137875/236708466-c0fbb063-e0bb-44c0-95be-e2a8b59e89a7.png)
+
 ## Índice
 1. [Requisitos](#requisitos)
 2. [Descrição do Projeto](#descrição-do-projeto)
@@ -45,7 +47,10 @@ Além disso, como parte do projeto da loja de animais de estimação online, uma
 Para tornar a loja de animais de estimação online uma aplicação sustentável e produtiva, é necessário armazenar algumas informações em um servidor. As principais informações que serão salvas no banco de dados são os dados dos administradores (como nome, ID, endereço, telefone, e-mail, nome de login e senha), dados dos clientes (como nome, ID, telefone, e-mail, nome de login e senha), produtos (como nome, identificador, foto, descrição, preço, quantidade em estoque e quantidade vendida) e eventos (como nome, foto, descrição, data, horário e localização).
 
 ### Protótipo
-Foi desenvolvido o [Diagrama de Navegação](https://www.figma.com/proto/aoYbKfVo5twtHE4pXq64fw/Untitled?node-id=228-427&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=228%3A427&show-proto-sidebar=1) e o [Mockup](https://www.figma.com/file/aoYbKfVo5twtHE4pXq64fw/Untitled?type=design&node-id=0-1&t=VsHLKqAyVCCDRMHS-0) no figma para planejar o projeto.
+Foi desenvolvido o [Protótipo](https://www.figma.com/proto/aoYbKfVo5twtHE4pXq64fw/Untitled?node-id=228-427&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=228%3A427&show-proto-sidebar=1), [Mockup](https://www.figma.com/file/aoYbKfVo5twtHE4pXq64fw/Untitled?type=design&node-id=0-1&t=VsHLKqAyVCCDRMHS-0) no figma e o seguinte diagrama de navegação para planejar o projeto : 
+
+![image](https://user-images.githubusercontent.com/63797831/236707761-8648c0ff-df77-4492-b7c0-0ede91dd6f51.png)
+
 
 ## Comentários sobre o código
 ## Plano de Testes
