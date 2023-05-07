@@ -1,41 +1,55 @@
 # Purrfect Paradise
 
-Kenzo Yves Yamashita Nobre	  5028772
+## Sobre
+O Purrfect Paradise é uma loja de animais de estimação online que oferece uma ampla variedade de produtos para animais de estimação e publica blogs sobre eventos focados em animais de estimação. O objetivo deste projeto é fornecer aos donos de animais de estimação uma forma conveniente e confiável de comprar produtos para animais de estimação de alta qualidade, ao mesmo tempo em que oferece informações sobre eventos relevantes em sua área.
 
-Otavio Ferracioli Coletti		11767796
+## Membros
+| Nome          | Número USP    |
+| ------------- |:-------------:|
+| Kenzo Yves Yamashita Nobre      | 5028772       |
+| Otavio Ferracioli Coletti      | 11767796      |
+| Victor Rodrigues da Silva | 12566140      |
 
-Victor Rodrigues da Silva		12566140
+## Índice
+1. [Requisitos](## 1. Requisitos)
+2. [Descrição do Projeto](## 2. Descrição-do-Projeto)
+3. [Comentários sobre o código](## 3. Comentários-sobre-o-código)
+4. [Plano de Testes](## 4. Plano-de-Testes)
+5. [Resultados dos Testes](## 5. Resultados-dos-Testes)
+6. [Instalação](## 6. Instalação)
+7. [Dificuldades](## 7. Dificuldades)
+8. [Comentários](## 8. Comentários)
 
-## Introduction
-The Purrfect paradise is an online pet shop that offers a wide range of pet products and blogs about events focused on pet animals. The goal of this project is to provide pet owners with a convenient and reliable way to purchase high-quality pet products while also offering them information about relevant events in their area.
+## 1. Requisitos
 
+- O sistema possui 2 tipos de usuários: Clientes e Administradores
+    - Os Administradores são responsáveis por registrar/gerenciar administradores, clientes, produtos e posts do blog fornecidos. O aplicativo já vem com uma conta admin com senha admin.
+    - Os Clientes são usuários que acessam o sistema para comprar produtos e ler posts do blog sobre eventos relevantes relacionados a animais de estimação em sua área.
+- O registro do administrador inclui: nome, ID, telefone, e-mail.
+- O registro de cada cliente inclui: nome, ID, endereço, telefone, e-mail.
+- O registro dos produtos incluem: nome, ID, foto, descrição, preço, quantidade (em estoque), quantidade vendida.
+- Venda de produtos: Os produtos são selecionados, a quantidade é escolhida e eles são incluídos no carrinho. Os produtos são adquiridos através de um código pix. A quantidade de produtos vendidos é subtraída da quantidade em estoque e adicionada à quantidade vendida. Os carrinhos são esvaziados apenas no momento do pagamento ou pelos clientes.
+- Gerenciamento de produtos: Os Administradores podem criar/atualizar/ler/excluir (CRUD) novos produtos. Por exemplo, eles podem alterar a quantidade em estoque.
+- Funcionalidade de posts do blog: A loja de animais de estimação online se destaca pelos eventos relevantes sobre animais de estimação exibidos na seção de blog do site. Os usuários podem ver as últimas notícias, posts informativos e eventos futuros para participar com seus animais.
+- Gerenciamento de posts do blog: Os Administradores podem criar/atualizar/ler/excluir (CRUD) novos posts.
 
-## 1. Requirements
-- The system have 2 types of users: Clients and Administrators
-    - Administrators are responsible for registering/managing administrators, customers, products and blogs provided. The application already comes with an account admin with password admin.
-    - Customers are users who access the system to buy products and read blog posts about relevant events about pet animals in their  area.
-- The admin record includes : name, id, phone, email.
-- Each customer's record includes : name, id, address, phone, email.
-- Product records include: name, id, photo, description, price, quantity (in stock), quantity sold.
-- Selling Products: Products are selected, their quantity chosen, and are included in a cart. Products are purchased through a pix code. The quantity of product sold is subtracted from the quantity in stock and added to the quantity sold. Carts are emptied only on payment or by customers.
-- Product Management: Administrators can create/update/read/delete (crud) new products. For example, they can change the stock quantity.
-- Blog posts funcionality : The online pet shop differenciates in the relevant events about pet animals shown in the blog section of the site. Users can see the latest news, informative posts and future events to participate with their animals.
-- Blog posts Management : Administrators can create/update/read/delete (crud) new posts.
+## 2. Descrição do Projeto
 
+### Funcionalidades
+Para comprar produtos em nossa loja de animais de estimação online, os clientes podem escolher os itens desejados e adicioná-los ao carrinho virtual. A quantidade de cada produto pode ser facilmente selecionada e ajustada conforme necessário. Quando chegar a hora de concluir a compra, os clientes podem usar o sistema de pagamento por código Pix para fazer um pagamento seguro e sem complicações. Uma vez confirmado o pagamento, nosso sistema de gerenciamento de estoque atualiza automaticamente as quantidades disponíveis para refletir os produtos vendidos, garantindo informações precisas sobre a disponibilidade dos produtos para futuros clientes. É importante destacar que os carrinhos são esvaziados somente após o recebimento do pagamento ou se o cliente optar por remover os itens do carrinho.
 
-## 2. Project Description
-To purchase products from our online pet store, customers can choose their desired items and add them to their virtual cart. The quantity of each product can be easily selected and adjusted as needed. When it's time to complete the purchase, customers can use the Pix code payment system to make a secure and hassle-free payment. Once payment is confirmed, our inventory management system automatically updates the stock quantities to reflect the products sold, ensuring accurate product availability information for future customers. It's important to note that carts are only emptied after payment is received, or if the customer chooses to remove items from the cart themselves.
+### Funcionalidade especial
+Além disso, como parte do projeto da loja de animais de estimação online, uma funcionalidade especial é implementada, permitindo que os usuários acessem uma guia dedicada aos "Eventos" na barra de navegação. Essa funcionalidade oferece um recurso valioso para os donos de animais de estimação que desejam se manter informados sobre os últimos eventos relacionados a animais de estimação, incluindo campanhas de adoção, clínicas de castração, sessões de cuidados e outros eventos de interesse. Ao clicar na guia "Eventos", os usuários podem navegar por uma lista abrangente de eventos futuros, cada um acompanhado por uma breve descrição do que esperar. Isso pode ajudar os usuários a tomar decisões informadas sobre quais eventos participar e como cuidar melhor de seus animais de estimação. É importante ressaltar que apenas os administradores podem adicionar novos posts nesta guia, garantindo que as informações fornecidas sejam confiáveis e atualizadas.
 
-Besides that, as part of the online pet store project, a special feature is implemented that enables users to access a dedicated "Events" tab in the navigation bar. This feature offers a valuable resource to pet owners who are looking to stay informed about the latest events related to pets, including adoption drives, spaying/neutering clinics, grooming sessions, and other events that might be of interest. By clicking on the "Events" tab, users can browse through a comprehensive list of upcoming events, each of which is accompanied by a brief description of what to expect. This can help users to make informed decisions about which events to attend and how they can best care for their pets. Importantly, only administrators are able to add new posts to this tab, ensuring that the information provided is reliable and up-to-date. 
+### Requisitos das funcionalidades
+Para tornar a loja de animais de estimação online uma aplicação sustentável e produtiva, é necessário armazenar algumas informações em um servidor. As principais informações que serão salvas no banco de dados são os dados dos administradores (como nome, ID, endereço, telefone, e-mail, nome de login e senha), dados dos clientes (como nome, ID, telefone, e-mail, nome de login e senha), produtos (como nome, identificador, foto, descrição, preço, quantidade em estoque e quantidade vendida) e eventos (como nome, foto, descrição, data, horário e localização).
 
-Here's the [Navigation diagram](https://www.figma.com/proto/aoYbKfVo5twtHE4pXq64fw/Untitled?node-id=228-427&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=228%3A427&show-proto-sidebar=1) and the [Mockup](https://www.figma.com/file/aoYbKfVo5twtHE4pXq64fw/Untitled?type=design&node-id=0-1&t=VsHLKqAyVCCDRMHS-0) used to plan the project.
+### Protótipo
+Foi desenvolvido o [Diagrama de Navegação](https://www.figma.com/proto/aoYbKfVo5twtHE4pXq64fw/Untitled?node-id=228-427&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=228%3A427&show-proto-sidebar=1) e o [Mockup](https://www.figma.com/file/aoYbKfVo5twtHE4pXq64fw/Untitled?type=design&node-id=0-1&t=VsHLKqAyVCCDRMHS-0) no figma para planejar o projeto.
 
-To make the online pet shop store a sustainable and productive application, it is necessary to store some information in a server. The main information that will be saved in the database is the data of administrators (such as name, id, address, phone, email, login name and password) data of customers (such as name, id, phone, email, login name and password), products (such as name, identifier, photo, description, price, quantity in stock and quantity sold) and events (such as name, photo, description, date, time and location).
-
-
-## 3. Comments about the code
-## 4. Test Plan
-## 5. Test Results
-## 6. Build Procedures
-## 7. Problems
-## 8. Comments
+## 3. Comentários sobre o código
+## 4. Plano de Testes
+## 5. Resultados dos Testes
+## 6. Instalação
+## 7. Dificuldades
+## 8. Comentários
