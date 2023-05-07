@@ -10,6 +10,8 @@ O Purrfect Paradise é uma loja de animais de estimação online que oferece uma
 | Otavio Ferracioli Coletti      | 11767796      |
 | Victor Rodrigues da Silva | 12566140      |
 
+![image](https://user-images.githubusercontent.com/85137875/236708466-c0fbb063-e0bb-44c0-95be-e2a8b59e89a7.png)
+
 ## Índice
 1. [Requisitos](#requisitos)
 2. [Descrição do Projeto](#descrição-do-projeto)
